@@ -11,13 +11,17 @@
 easy_admin:
     design:
         menu:
-            - label: 'menu.product'
+            - label: 'plant'
               icon: 'shopping-basket'
               children:
-                  - { entity: 'Product', icon: 'th-list', label: 'menu.product.list', params: { sortField: 'createdAt' }, default: true }
-                  - { entity: 'Category', icon: 'tags', label: 'menu.category' }
-                  - { entity: 'Product', icon: 'plus-circle', label: 'menu.product.add', params: { action: 'new' } }
-            - { label: 'menu.customer', entity: 'User', icon: 'users' }
+                  - { entity: 'Plant', icon: 'th-list', label: 'menu.plant.list', params: { sortField: 'createdAt' }, default: true }
+                  - { entity: 'Family', icon: 'th-list', label: 'menu.family.list', params: { sortField: 'createdAt' }, default: true }
+
+                  - { entity: 'Variety', icon: 'tags', label: 'menu.variety' }
+                  - { entity: 'Plant', icon: 'plus-circle', label: 'menu.plant.add', params: { action: 'new' } }
+                  - { entity: 'Family', icon: 'plus-circle', label: 'menu.family.add', params: { action: 'new' } }
+
+            - { label: 'menu.user', entity: 'User', icon: 'users' }
             - { label: 'menu.purchase', entity: 'Purchase', icon: 'credit-card', params: { sortField: 'deliveryDate' } }
             - { label: 'menu.about' }
             - { label: 'menu.about.home', url: 'https://github.com/javiereguiluz/EasyAdminBundle', icon: 'home', target: '_blank' }

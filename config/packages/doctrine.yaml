@@ -1,6 +1,7 @@
 doctrine:
     dbal:
-        url: 'sqlite:///%kernel.project_dir%/var/data/easyadmin.sqlite'
+            #        url: 'sqlite:///%kernel.project_dir%/var/data/easyadmin.sqlite'
+         url:  'mysql://root@127.0.0.1:3306/spaceland?charset=utf8mb4&serverVersion=5.7'
     orm:
         auto_generate_proxy_classes: '%kernel.debug%'
         naming_strategy: doctrine.orm.naming_strategy.underscore

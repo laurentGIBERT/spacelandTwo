@@ -11,7 +11,7 @@ easy_admin:
         User:
             class: App\Entity\User
             list:
-                title: 'Customers'
+                title: 'Users'
                 actions: ['-new']
                 fields: ['id', 'active', 'username', 'email', 'purchases', { property: 'contract', template: 'contract.html.twig', base_path: '%app.path.user_contracts%' }]
             show:

@@ -1,13 +1,13 @@
 # If you just need a quick backend for your Symfony application, this is the
 # only configuration you must define in this file:
 #
-# easy_admin:
+# spaceland:
 #     entities:
-#         - AppBundle\Entity\Category
-#         - AppBundle\Entity\Product
+#         - AppBundle\Entity\Variety
+#         - AppBundle\Entity\Plant
 #         - AppBundle\Entity\Purchase
 #         - AppBundle\Entity\PurchaseItem
-#         - AppBundle\Entity\User
+#         - AppBundle\Entity\Gardener
 #
 # In this demo application, the configuration is split into several small files
 # to show an alternative way to define the configuration for complex backends.
@@ -16,4 +16,4 @@
 # which is published at https://symfony.com/doc/current/bundles/EasyAdminBundle/index.html
 #
 imports:
-    - { resource: easy_admin/ }
+    - { resource: spaceland/ }
