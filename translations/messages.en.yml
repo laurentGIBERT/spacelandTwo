@@ -18,10 +18,10 @@
 # The "main menu" is an example of defining the labels explicitly
 # (they are translated following the 1) method)
 # ------------------------------------------------------------------------------
-menu.category:     Categories
-menu.product:      Products
-menu.product.list: List Products
-menu.product.add:  Add Product
+menu.variety:     Varieties
+menu.plant:      Plants
+menu.plant.list: List Plants
+menu.plant.add:  Add Plant
 menu.customer:     Customers
 menu.purchase:     Purchases
 menu.about:        About EasyAdmin
@@ -34,12 +34,12 @@ menu.about.issues: Report Issues
 # ------------------------------------------------------------------------------
 
 # entity names, labels and titles
-Categories: Categories
-Category: Category
+Varieties: Varieties
+Variety: Variety
 Customers: Customers
-Product: Product
-Products: Products
-User: User
+Plant: Plant
+Plants: Plants
+Gardener: Gardener
 
 # entity properties
 Attachments: Attachments

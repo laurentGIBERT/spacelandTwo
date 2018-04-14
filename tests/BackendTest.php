@@ -22,35 +22,35 @@ class BackendTest extends WebTestCase
     {
         return array(
             array(
-                array('action' => 'list', 'entity' => 'Category'),
+                array('action' => 'list', 'entity' => 'Variety'),
             ),
             array(
-                array('action' => 'list', 'entity' => 'Category', 'page' => 2),
+                array('action' => 'list', 'entity' => 'Variety', 'page' => 2),
             ),
             array(
-                array('action' => 'search', 'entity' => 'Category', 'query' => 'cat'),
+                array('action' => 'search', 'entity' => 'Variety', 'query' => 'cat'),
             ),
             array(
-                array('action' => 'show', 'entity' => 'Category', 'id' => 1),
+                array('action' => 'show', 'entity' => 'Variety', 'id' => 1),
             ),
             array(
-                array('action' => 'edit', 'entity' => 'Category', 'id' => 1),
+                array('action' => 'edit', 'entity' => 'Variety', 'id' => 1),
             ),
 
             array(
-                array('action' => 'list', 'entity' => 'Product'),
+                array('action' => 'list', 'entity' => 'Plant'),
             ),
             array(
-                array('action' => 'list', 'entity' => 'Product', 'page' => 2),
+                array('action' => 'list', 'entity' => 'Plant', 'page' => 2),
             ),
             array(
-                array('action' => 'search', 'entity' => 'Product', 'query' => 'lorem'),
+                array('action' => 'search', 'entity' => 'Plant', 'query' => 'lorem'),
             ),
             array(
-                array('action' => 'show', 'entity' => 'Product', 'id' => 1),
+                array('action' => 'show', 'entity' => 'Plant', 'id' => 1),
             ),
             array(
-                array('action' => 'edit', 'entity' => 'Product', 'id' => 1),
+                array('action' => 'edit', 'entity' => 'Plant', 'id' => 1),
             ),
         );
     }

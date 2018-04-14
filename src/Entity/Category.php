@@ -130,7 +130,7 @@ class Category
     }
 
     /**
-     * Set all products in the category.
+     * Set all plant in the category.
      *
      * @param Product[] $products
      */

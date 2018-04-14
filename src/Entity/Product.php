@@ -80,7 +80,7 @@ class Product
      * This unmapped property stores the binary contents of the image file
      * associated with the product.
      *
-     * @Vich\UploadableField(mapping="product_images", fileNameProperty="image")
+     * @Vich\UploadableField(mapping="plant_images", fileNameProperty="image")
      *
      * @var File
      */
@@ -124,11 +124,11 @@ class Product
     private $description;
 
     /**
-     * List of categories where the products is
+     * List of categories where the plant is
      * (Owning side).
      *
      * @var Category[]
-     * @ORM\ManyToMany(targetEntity="Category", inversedBy="products")
+     * @ORM\ManyToMany(targetEntity="Category", inversedBy="plant")
      * @ORM\JoinTable(name="product_category")
      */
     private $categories;
